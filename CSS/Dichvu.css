@@ -1,0 +1,166 @@
+body{
+    font-family: Tahoma;
+    font-size: 13px;
+    width:  100%;
+    margin: 0px auto;
+    }
+    #menu{
+        background: black;
+        height:40px ;
+        color: rgb(252, 241, 241);
+    }
+        #menu ul{
+            margin: 0px;
+            padding: 0px;
+        }
+        #menu ul li{
+            list-style: none;
+            float: left;
+        }
+        #menu ul li b{
+            line-height: 40px;
+            font-size: 18px;
+            padding-left: 150px;
+        }
+        #menu ul li a{
+            text-decoration: none;
+            display: block;
+            height: 40px;
+            line-height: 40px;
+            color: #FFF;
+            padding: 0px 10px 0px 10px;
+            border-right: 1px solid #ccc;
+            position: relative; 
+        }
+        #menu ul li a.active {
+            background: #537dde;
+        }
+        #menu ul li a::after{
+            content: "";
+            height: 5px;
+            width: 0px;
+            background-color: #FFF;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            transition:all 0.5s ease-in-out;
+            }
+            #menu ul li a:hover::after
+            {
+                width: 50%;
+            }
+              
+    #banner{
+        height: auto;
+        width:  100%;
+
+        }
+        #banner img{
+        height: 250px;
+        width:  100%;
+        }
+    #main #left{
+        float: left;
+        width: 60%;
+        font-size: 13px;
+        height: auto;
+        }
+        #main #left ul{
+            margin: 0px;
+            padding: 0px;
+            
+            }
+        #main #left ul li{
+            list-style: none;
+            clear: left;
+            line-height: 15px;
+            float: left;
+            margin-bottom: 10px;        
+            }        
+        #main #left ul li img{
+            float: left;
+            margin-left:80px;
+            margin-right:10px;
+            margin-bottom:10px ;
+            }
+        #main #left ul li img h2{
+            font-size: 18px;
+            margin-top: 0px;
+            
+            }
+        #main #left img{
+            width: 120px;
+            height: 95px;
+        }
+    #main #right{
+        float: left;
+        width: 30%;
+        height: auto;
+        }
+        #main #right ul{
+            margin: 0px;
+            padding: 0px;
+            border: 2px  solid #ccc;
+            background-color: aquamarine;
+            }
+        #main #right ul li{
+            list-style: none;
+            clear: left;
+            line-height: 15px;
+            float: left;
+            margin-bottom: 10px; 
+            margin-top: 10px;     
+            }        
+        #main #right ul li img{
+            float: left;
+            margin-right:10px;
+            margin-left:40px;
+            margin-bottom:10px ;
+            
+            }
+        #main #right ul li img h3{
+            font-size: 18px;
+            margin-top: 0px;
+            
+                }
+        #main #right img{
+            width: 80px;
+            height: 50px;
+        }
+    #footer{
+        float: left;
+        width: 100%;
+        color: #FFF;
+        background-color: black;
+        min-height: 150px;
+     
+        }
+        #footer.row{
+        float: left;
+        width:  100%;
+        margin-bottom: 20px;
+    }
+    .boxcentre{
+        width: 50%;
+        margin: 0 auto;
+        
+    }
+    .boxfooter1{
+        width: 15%;
+        float:left ;
+    }
+    .boxfooter2{
+        width: 20%;
+        float:left ;
+       
+    }
+    .boxfooter3{
+        width: 60%;
+        float:left ;
+    }
+    .textcenter{
+        text-align: center;
+    }
+    .mgr10{
+        margin-bottom: 10px;
+    }

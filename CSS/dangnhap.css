@@ -1,0 +1,85 @@
+body{
+    font-family: Tahoma;
+    font-size: 13px;
+    width: 100%;
+    margin: 0px auto;
+    background-image: url(../Image/Bien.jpg);
+    }
+    .menu{
+        background: black;
+        height:40px ;
+        color: rgb(252, 241, 241);
+    }
+        .menu ul{
+            margin: 0px;
+            padding: 0px;
+        }
+        .menu ul li{
+            list-style: none;
+            float: left;    
+        }
+        .menu ul li b{
+            line-height: 40px;
+            font-size: 18px;
+            padding-left: 150px;
+        }
+        .menu ul li a{
+            text-decoration: none;
+            display: block;
+            height: 40px;
+            line-height: 40px;
+            color: #FFF;
+            padding: 0px 10px 0px 10px;
+            border-right: 1px solid #ccc;
+            position: relative;
+        }
+        .menu ul li a.active {
+            background: #537dde;
+        }
+        #menu ul li a::after{
+                content: "";
+                height: 5px;
+                width: 0px;
+                background-color: #FFF;
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+                transition:all 0.5s ease-in-out;
+            }
+            #menu ul li a:hover::after
+            {
+                width: 50%;
+            }
+.logic{
+    width: 500px;
+    height: 450px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: #FFF;
+    margin-top: 50px;
+}
+input{
+    height: 30px;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+button{
+    height: 30px;
+    width: 300px;
+    margin-bottom: 20px;
+    background-color: red;
+    color: aliceblue;
+}
+#footer{
+    float: left;
+    width: 1370px;
+    color: #FFF;
+    background-color: black;
+    min-height: 150px;
+    }
+    #footer.row{
+        float: left;
+        width: 1500px;
+        margin-bottom: 20px;
+}

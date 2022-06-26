@@ -1,0 +1,124 @@
+body{
+    font-family: Tahoma;
+    font-size: 12px;
+    width: 100%;
+    margin: 0px auto;
+    }
+    #menu{
+        background: black;
+        height:40px ;
+        color: rgb(252, 241, 241);
+        width:  100%;
+    }
+        #menu ul{
+            margin: 0px;
+            padding: 0px;
+        }
+        #menu ul li{
+            list-style: none;
+            float: left;
+        }
+        #menu ul li b{
+            line-height: 40px;
+            font-size: 18px;
+            padding-left: 150px;
+        }
+        #menu ul li a{
+            text-decoration: none;
+            display: block;
+            height: 40px;
+            line-height: 40px;
+            color: #FFF;
+            padding: 0px 10px 0px 10px;
+            border-right: 1px solid #ccc;
+            position: relative;
+        }
+        #menu ul li a.active {
+            background: #537dde;
+        }
+        #menu ul li a::after{
+            content: "";
+            height: 5px;
+            width: 0px;
+            background-color: #FFF;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            transition:all 0.5s ease-in-out;
+        }
+        #menu ul li a:hover::after
+        {
+            width: 50%;
+        }    
+    #content #left{
+        width: 60%;
+        background-color: rgb(255, 255, 255);
+        float: left;
+        min-height: 400px;
+        margin-left: 60px;
+        line-height: 30px;
+        text-align: justify;
+    }
+        #content #left img{
+            width: 800px;
+            height: 700px;
+        }
+
+    #content #right{
+        width: 35%;
+        background-color: rgb(255, 255, 255);
+        float: left;
+        min-height: 400px;
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+        #content #right ul{
+            margin: 0px;
+            padding: 0px;
+        }
+            #content #right ul li{
+                    list-style: none;
+                    clear: left;
+                    float: left;
+                    margin-bottom: 20px;        
+                }        
+                #content #right ul li img{
+                        float: left;
+                        margin-right:10px;
+                    }
+    #footer{
+        float: left;
+        width: 100%;
+        color: #FFF;
+        background-color: rgb(0, 0, 0);
+        min-height: 150px;
+    }
+    #footer.row{
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .boxcentre{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .boxfooter1{
+        width: 15%;
+        float:left ;
+    }
+    .boxfooter2{
+        width: 20%;
+        float:left ;
+        
+    }
+    .boxfooter3{
+        width: 60%;
+        float:left ;
+    }
+    .textcenter{
+        text-align: center;
+    }
+    .mgr10{
+        margin-bottom: 10px;
+    }
+        
